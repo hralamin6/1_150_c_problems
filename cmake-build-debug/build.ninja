@@ -49,8 +49,8 @@ cmake_ninja_workdir = /home/hralamin/CLionProjects/50Problems/cmake-build-debug/
 
 build cmake_object_order_depends_target_50Problems: phony || .
 
-build CMakeFiles/50Problems.dir/2302009_61.c.o: C_COMPILER__50Problems_unscanned_Debug /home/hralamin/CLionProjects/50Problems/2302009_61.c || cmake_object_order_depends_target_50Problems
-  DEP_FILE = CMakeFiles/50Problems.dir/2302009_61.c.o.d
+build CMakeFiles/50Problems.dir/2302009_127.c.o: C_COMPILER__50Problems_unscanned_Debug /home/hralamin/CLionProjects/50Problems/2302009_127.c || cmake_object_order_depends_target_50Problems
+  DEP_FILE = CMakeFiles/50Problems.dir/2302009_127.c.o.d
   FLAGS = -g -std=gnu99 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles/50Problems.dir
   OBJECT_FILE_DIR = CMakeFiles/50Problems.dir
@@ -63,7 +63,7 @@ build CMakeFiles/50Problems.dir/2302009_61.c.o: C_COMPILER__50Problems_unscanned
 #############################################
 # Link the executable 50Problems
 
-build 50Problems: C_EXECUTABLE_LINKER__50Problems_Debug CMakeFiles/50Problems.dir/2302009_61.c.o
+build 50Problems: C_EXECUTABLE_LINKER__50Problems_Debug CMakeFiles/50Problems.dir/2302009_127.c.o
   FLAGS = -g
   LINK_LIBRARIES = -lm
   OBJECT_DIR = CMakeFiles/50Problems.dir
